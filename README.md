@@ -1,2 +1,3 @@
-# TFG Infor
- 
+# Generalización de algoritmos de búsqueda estocástica local por medio de métodos de representación conjunta de soluciones
+
+Todos los algoritmos evolutivos y de optimización por enjambre se basan en hacer evolucionar, a lo largo de sus iteraciones, un conjunto finito o infinito de soluciones privilegiadas en las que se centra la búsqueda en ese momento. Se buscarán maneras generales de representar dicho conjunto de soluciones privilegiadas, de forma que un solo algoritmo pueda generalizarlos a todos.
