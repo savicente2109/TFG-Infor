@@ -3,7 +3,7 @@
 ## Contenido
 
 En la carpeta `/source` hay tres _notebooks_ con el código final utilzado en todos los experimentos.
-En `/source/medias_ponderadas.ipynb` se encuentra la implementación del algoritmo evolutivo por medias ponderadas (AEMP). Por su parte, `/source/GA.ipynb` y `/source/PSO.ipynb` contienen el código utilzado para ejecutar los algoritmos genéticos y de enjambre de partículas clásicos, mediante las librerías PyGAD y PySwarm.
+En `/source/medias_ponderadas.ipynb` se encuentra la implementación del algoritmo evolutivo por medias ponderadas (AEMP). Por su parte, `/source/GA.ipynb` y `/source/PSO.ipynb` contienen el código utilzado para ejecutar los algoritmos genéticos y de enjambre de partículas clásicos, mediante las librerías PyGAD [[1]](#1) y PySwarm [[2]](#2).
 
 Se ha medido el rendimiento de los seis algoritmos al enfrentarse a conjuntos de instancias del problema de la cobertura de vérticles (`/vertex_cover_benchmarks`) y del de la mochila (`/knapsack_benchmarks`).
 
@@ -17,3 +17,8 @@ Finalmente, en `/intentos` se pueden ver una serie de intentos auxiliares que fi
 
 ## Referencias
 
+<a id="1">[1]</a>
+Gad, A. F. Pygad: An intuitive genetic algorithm python library. _Multimedia Tools and Applications_, páginas 1–14, 2023.
+
+<a id="2">[2]</a>
+Miranda, L. J. V. PySwarms, a research-toolkit for Particle Swarm Optimization in Python. _Journal of Open Source Software_, vol. 3(21), 2018.
